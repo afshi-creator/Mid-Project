@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Blood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Blood Donation Management System</h1>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="register.html"><i class="fas fa-user-plus"></i> Donor Registration</a>
+            <a href="search.html"><i class="fas fa-search"></i> search Blood</a>
+            <a href="awareness.html"><i class="fas fa-heart"></i> awareness</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i> contact</a>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <h2>Search Blood Donors</h2>
+
+        <label>Select Blood Group:</label><br><br>
+        <select>
+            <option>Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+
+        <br><br>
+        <button onclick="searchBlood()">Search</button>
+     </section>
+
+    <!-- Result Section -->
+    <section class="result-section">
+        <h3>Available Donors</h3>
+
+        <table id="resultBody">
+           
+            <tr>
+                <th>Name</th>
+                <th>Blood Group</th>
+                <th>City</th>
+                <th>Contact</th>
+            </tr>
+
+            <tr>
+                <td>Ali Khan</td>
+                <td>A+</td>
+                <td>Karachi</td>
+                <td>0301xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>Sara Ahmed</td>
+                <td>O+</td>
+                <td>Lahore</td>
+                <td>0322xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>Usman Anwar</td>
+                <td>B-</td>
+                <td>Karachi</td>
+                <td>0334xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>Sahil Aslam</td>
+                <td>A+</td>
+                <td>Islamabad</td>
+                <td>0324xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>Noor Arshad</td>
+                <td>B+</td>
+                <td>Lahore</td>
+                <td>0323xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>Aqsa Arshad</td>
+                <td>AB-</td>
+                <td>Rawalpindi</td>
+                <td>0301xxxxxxx</td>
+            </tr>
+            <tr>
+                <td>Mohsin Malik</td>
+                <td>AB+</td>
+                <td>Karachi</td>
+                <td>0320xxxxxxx</td>
+            </tr> 
+          
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Blood Donation Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
