@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donor Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Blood Donation Management System</h1>
+         <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="register.html"><i class="fas fa-user-plus"></i> Donor Registration</a>
+            <a href="search.html"><i class="fas fa-search"></i> search Blood</a>
+            <a href="awareness.html"><i class="fas fa-heart"></i> awareness</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i> contact</a>
+        </nav>
+    </header>
+
+    <!-- Registration Form Section -->
+    <section class="form-section">
+        <h2>Donor Registration Form</h2>
+
+        <form onsubmit="registerDonor()">
+            <label for="name">Full Name:</label><br>
+            <input type="text" placeholder="Enter your full name" id="name"><br><br>
+
+            <label>Blood Group:</label><br>
+            <select>
+                <option>Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                <option>O+</option>
+                <option>O-</option>
+            </select><br><br>
+
+            <label for="city">City:</label><br>
+            <input type="text" placeholder="Enter your city" id="city"><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" placeholder="03XXXXXXXXX" id="phone"><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Blood Donation Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
