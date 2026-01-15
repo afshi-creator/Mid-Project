@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header For All Page*/
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Nav Contain Links Of Different Pages*/
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero Section of Home Page*/
+.hero {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffe6e6;
+}
+
+.hero-img {
+    width: 700px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Info Section Of Home Page */
+.info {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Footer of All Pages*/
+footer {
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+/* Form Section Of Registration Page*/
+
+.form-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffe6e6;
+}
+
+form {
+    background-color: white;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+input, select {
+    width: 250px;
+    padding: 8px;
+}
+
+button {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* jab button pr curser ayga color dark ho jyga */
+button:hover {
+    background-color: #800000;
+}
+
+
+
+/* Search Bloog Page3 */
+
+/* Search Section */
+.search-section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Result Table */
+.result-section {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #b30000;
+    color: white;
+}
+
+
+
+/* Awareness Section  */
+.awareness-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.awareness-section h3 {
+    color: #b30000;
+    margin-top: 20px;
+}
+
+.awareness-section ul {
+    margin-left: 20px;
+}
+
+/* parent div */
+.awareness-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* child div no 1 for text content */
+.awareness-text {
+    flex: 1;
+}
+
+/* child div no 2 for image */
+.awareness-image {
+    flex: 1;
+    text-align: right;
+}
+
+.awareness-image img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+
+
+/* Contact Page */
+
+/* Text */
+.contact-section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Form */
+.contact-section form {
+    background-color: #ffe6e6;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Message Area */
+textarea {
+    width: 250px;
+    padding: 8px;
+    resize: none;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
